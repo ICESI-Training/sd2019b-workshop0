@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/home/distribuidos/Documentos/Distribuidos/sd2019b-workshop0/01_centos7","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
