@@ -1,0 +1,178 @@
+    1  exit
+    2  vi ~/.zshrc
+    3  vi $ZSH_CUSTOM/distribuidos.zsh
+    4  vi ~/.zshrc
+    5  vi test.sh
+    6  ./ test.sh
+    7  chmod +x test.sh
+    8  ./ test.sh
+    9  ./test.sh
+   10  source test.sh
+   11  cat test.sh
+   12  bash test.sh
+   13  bash test.s
+   14  bash test.sh
+   15  ^V
+   16  ping -t
+   17  ping -t 127.0.0.1
+   18  bash test.sh
+   19  cd Documentos
+   20  cd Distribuidos
+   21  cd Workshop0
+   22  git clone https://github.com/ICESI-Training/sd2019b-workshop0.git
+   23  ls -l
+   24  cd sd2019b-workshop0
+   25  gco -b dev
+   26  touch readme.md
+   27  ls -l
+   28  rm readme.md
+   29  ls -l
+   30  git config --local user.email juan-bol98@hotmail.com
+   31  git config --local user.name juan.bolanos
+   32  vi README.md
+   33  gcmsg "README updated"
+   34  alias
+   35  gaa
+   36  git add .
+   37  gcmsg "README updated"
+   38  gp
+   39  ggp
+   40  exit
+   41  cd Distribuidos
+   42  cd Workshop0
+   43  cd sd2019b-workshop0
+   44  gco -b dev
+   45  git config --local user.email juan-bol98@hotmail.com
+   46  git config --local user.name juan.bolanos
+   47  vi README.md
+   48  gaa
+   49  ggp
+   50  cd
+   51  cd Documentos
+   52  cd Distribuidos
+   53  cd Workshop0
+   54  git clone https://github.com/juan-bol/sd2019b-workshop0.git
+   55  cd sd2019b-workshop0
+   56  gco -b dev
+   57  git config --local user.email juan-bol98@hotmail.com
+   58  git config --local user.name juan.bolanos
+   59  vi README.md
+   60  gaa
+   61  ggp
+   62  git status
+   63  gaa
+   64  gcmsg "readme updated"
+   65  ggp
+   66  cd ..
+   67  history > clase1.txt
+   68  vi .zshrc
+   69  source .zshrc
+   70  vi .zshrc
+   71  source .zshrc
+   72  vi .zshrc
+   73  git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   74  source .zshrc
+   75  ls -l
+   76  tmux new-session -s distribuidos
+   77  path
+   78  pwd
+   79  ls
+   80  cd sd2019b-workshop0
+   81  cd ..
+   82  tree
+   83  cd ..
+   84  t
+   85  tree
+   86  cd Workshop0
+   87  mv sd2019b-workshop0 ../
+   88  cd ..
+   89  tree
+   90  cd ..
+   91  tree
+   92  cd Workshop0
+   93  cd Dis
+   94  cd Distribuidos
+   95  tree
+   96  cd Workshop0
+   97  mv clase1.txt ../
+   98  cd ..
+   99  tree
+  100  cd Workshop0
+  101  vi Vagrantfile
+  102  cd ..
+  103  mv Workshop0/Vagrantfile sd2019b-workshop0
+  104  tree
+  105  rm Workshop0
+  106  rm -rf Workshop0
+  107  tre
+  108  tree
+  109  cd sd2019b-workshop0
+  110  vagrant box list
+  111  vi Vagrantfile
+  112  mkdir 00_alpine
+  113  mkdir 01_centos7
+  114  mv Vagrantfile 00_alpine
+  115  tree
+  116  cd 00_alpine
+  117  vi Vagrantfile
+  118  cd ..
+  119  cd 01_centos7
+  120  vagrant init centos/7
+  121  vagrant up
+  122  cd Documentos/Distribuidos
+  123  tree
+  124  cd sd2019b-workshop0
+  125  cd ..
+  126  cd sd2019b-workshop0
+  127  cd 00
+  128  cd 00_alpine
+  129  vagrant status
+  130  vagrant up
+  131  vagrant ssh
+  132  cd ..
+  133  cd 00_alpine
+  134  vi Vagrantfile
+  135  vagrant --help
+  136  vagrant reload
+  137  tmux new-session -s test
+  138  tmux a -t test
+  139  tmux new-session -s test
+  140  vim Vagrantfile
+  141  vi Vagrantfile
+  142  vagrant reload
+  143  vagrant ssh
+  144  apk add apache2
+  145  apk -v
+  146  exit
+  147  cd Documentos/Distribuidos
+  148  cd 00_alpine
+  149  cd sd2019b-workshop0/00_alpine
+  150  vagrant ssh
+  151  vi Vagrantfile
+  152  vagrant sh
+  153  vagrant shh
+  154  vagrant ssh
+  155  vi Vagrantfile
+  156  alias
+  157  git add .
+  158  cd ..
+  159  git add .
+  160  gcmsg "Centos installed - alpine configured"
+  161  git status
+  162  gpp
+  163  git push
+  164  git push --set-upstream origin dev
+  165  gaa
+  166  exit
+  167  cat history
+  168  pwd
+  169  cd Documentos/Distribuidos
+  170  cd sd2019b-workshop0
+  171  tree
+  172  cd ..
+  173  tree
+  174  mv clase1.txt sd2019b-workshop0
+  175  cd sd2019b-workshop0
+  176  tree
+  177  mkdir histories
+  178  mv clase1.txt histories

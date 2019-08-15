@@ -1,0 +1,66 @@
+    1  exit
+    2  vi ~/.zshrc
+    3  vi $ZSH_CUSTOM/distribuidos.zsh
+    4  vi ~/.zshrc
+    5  vi test.sh
+    6  ./ test.sh
+    7  chmod +x test.sh
+    8  ./ test.sh
+    9  ./test.sh
+   10  source test.sh
+   11  cat test.sh
+   12  bash test.sh
+   13  bash test.s
+   14  bash test.sh
+   15  ^V
+   16  ping -t
+   17  ping -t 127.0.0.1
+   18  bash test.sh
+   19  cd Documentos
+   20  cd Distribuidos
+   21  cd Workshop0
+   22  git clone https://github.com/ICESI-Training/sd2019b-workshop0.git
+   23  ls -l
+   24  cd sd2019b-workshop0
+   25  gco -b dev
+   26  touch readme.md
+   27  ls -l
+   28  rm readme.md
+   29  ls -l
+   30  git config --local user.email juan-bol98@hotmail.com
+   31  git config --local user.name juan.bolanos
+   32  vi README.md
+   33  gcmsg "README updated"
+   34  alias
+   35  gaa
+   36  git add .
+   37  gcmsg "README updated"
+   38  gp
+   39  ggp
+   40  exit
+   41  cd Distribuidos
+   42  cd Workshop0
+   43  cd sd2019b-workshop0
+   44  gco -b dev
+   45  git config --local user.email juan-bol98@hotmail.com
+   46  git config --local user.name juan.bolanos
+   47  vi README.md
+   48  gaa
+   49  ggp
+   50  cd
+   51  cd Documentos
+   52  cd Distribuidos
+   53  cd Workshop0
+   54  git clone https://github.com/juan-bol/sd2019b-workshop0.git
+   55  cd sd2019b-workshop0
+   56  gco -b dev
+   57  git config --local user.email juan-bol98@hotmail.com
+   58  git config --local user.name juan.bolanos
+   59  vi README.md
+   60  gaa
+   61  ggp
+   62  git status
+   63  gaa
+   64  gcmsg "readme updated"
+   65  ggp
+   66  cd ..
