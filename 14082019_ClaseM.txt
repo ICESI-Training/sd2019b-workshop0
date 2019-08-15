@@ -1,0 +1,90 @@
+    1  ls
+    2  vi ~/.zshrc
+    3  vi $ZSH_CUSTOM/distribuidos.zsh
+    4  vi ~/.zshrc
+    5  chmod +x test.sh
+    6  source test.sh
+    7  vi $ZSH_CUSTOM/distribuidos.zsh
+    8  git clone https://github.com/JuanesApps/sd2019b-workshop0.git
+    9  cd sd2019b-workshop0
+   10  gco -b dev
+   11  vi README.md
+   12  gaa
+   13  gcmsg "Update README"
+   14  git config --blobal user.email juanes-2504@hotmail.com
+   15  git config --blglobal user.email juanes-2504@hotmail.com
+   16  git config --global em
+   17  git config --global user.email juanes-2504@hotmail.com
+   18  git config --global user.e
+   19  git config --global user.name juan.quinayas
+   20  ggp
+   21  git status
+   22  ga
+   23  gaa
+   24  gcmsg "Update README JUANES"
+   25  ggp
+   26  ifconfig
+   27  ssh distribuidos@192.168.130.62
+   28  vi ~/.zshrc 
+   29  vi $ZSH_CUSTOM/distribuidos.zsh
+   30  source .zshrc
+   31  git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+   32  source .zshrc
+   33  tmux new-session -s distribuidos
+   34  pwd
+   35  ls -l
+   36  cd Documentos
+   37  ls -l
+   38  cd Distribuidos
+   39  ls -l
+   40  cd Workshop0
+   41  ls -l
+   42  cd sd2019b-workshop0
+   43  ls -l
+   44  cd..
+   45  ..
+   46  mv Workshop0/sd2019b-workshop0 .
+   47  ls -l
+   48  mv Workshop0/Vagrantfile sd2019b-workshop0
+   49  ls -l
+   50  rm -rf Workshop0
+   51  rm -rf Worshop0
+   52  ls -l
+   53  cd sd2019b-workshop0
+   54  vi Vagrantfile
+   55  vagrant box list
+   56* cd Documentos/Distribuidos/sd2019b-workshop0
+   57* mkdir 00_alpine
+   58* mkdir 01_centos7
+   59* mv Vagrantfile 00_alpine
+   60* tree
+   61* cd 01_centos7
+   62* ls
+   63* vagrant init centos/7
+   64* ls
+   65* vi Vagrantfile
+   66* vagrant up
+   67* exit
+   68  ls
+   69  cd 00_alpine
+   70  ls
+   71  vagrant status
+   72  vagrant up
+   73  vagrant ssh
+   74  vi Vagrantfile
+   75  vagrant --help
+   76  vagrant reload
+   77  vi Vagrantfile
+   78  vagrant reload
+   79  vagrant ssh
+   80  apk add apache2
+   81  sudo apk add apache2
+   82  apk add apache2
+   83  apk add stableapp newapp@edge bleedingapp@testing
+   84  cat /etc/
+   85  apk update
+   86  vagrant ssh
+   87  curl localhost:8080
+   88  vagrant ssh
+   89  ..
+   90  ggp
