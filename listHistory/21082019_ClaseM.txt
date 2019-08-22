@@ -1,0 +1,91 @@
+    1  history
+    2  pwd
+    3  man history
+    4  history
+    5  history -c
+    6  history 
+    7  history -d
+    8  history -e
+    9  man history
+   10  history e
+   11  history
+   12  cd Documentos/+
+   13  cd Documentos/
+   14  ls -l
+   15  cd Distribuidos
+   16  ls -l
+   17  cd sd2019b-workshop0
+   18* ls -l
+   19  sudo vim sshd_config
+   20  ls -l
+   21  cd /etc/ssh/
+   22  ls
+   23  cd sshd_config
+   24  vim sshd_config
+   25  service ssh restart
+   26  sudo service ssh restart
+   27  sudo systemctl restart sshd.service
+   28  cd ~
+   29  pwd
+   30  cd Documentos
+   31  ls
+   32  cd Distribuidos
+   33  cd sd2019b-workshop0
+   34  ls
+   35  cd 00_alpine
+   36  vi Vagrantfile
+   37  vi install.sh
+   38  vagrant status
+   39  vagrant up
+   40  vagrant provision
+   41  tmux new-session -s distribuidos
+   42* curl 127.0.0.1:8080
+   43* ls
+   44* vim install.sh
+   45* scp distribuidos@192.168.130.59:install.sh distribuidos@192.168.130.62:/home/distribuidos
+   46* cat install.sh
+   47* cd ..
+   48* mkdir 02_ubuntu
+   49* cd 02_ubuntu
+   50* vagrant init bento/ubuntu-18.04
+   51* vagrant up
+   52* cd ..
+   53* vi Va
+   54* la
+   55* ls -l
+   56* cd 02_ubuntu
+   57* ls
+   58* vi Vagrantfile
+   59* cd..
+   60* ..
+   61* cd 01_centos7
+   62* vi Vagrantfile
+   63* echo "" > Vagrantfile
+   64* vi Vagrantfile
+   65* rm Vagrantfile
+   66* ls
+   67* wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/Vagrantfile
+   68* ls
+   69* wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/hosts
+   70* ls
+   71* wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/ansible.cfg
+   72* ls
+   73* mkdir playbooks
+   74* cd playbooks
+   75* vi python.yml
+   76* cat python.yml
+   77* ls
+   78* rm python.yml
+   79* vi python.yml
+   80* rm python.yml
+   81* ls
+   82* wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/playbooks/python.yml
+   83* ls
+   84* vivi python.yml
+   85* vi python.yml
+   86* ls
+   87* cat python.yml
+   88* gaa
+   89* gcmsg "02_ubuntu"
+   90* ggp
+   91* exit
