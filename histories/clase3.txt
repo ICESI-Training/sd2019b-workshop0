@@ -1,0 +1,77 @@
+    1  exit
+    2  history
+    3  cd Documentos/Distribuidos/sd2019b-workshop0
+    4  exit
+    5  ls
+    6  cd 00_alpine
+    7  vi Vagrantfile
+    8  vi install.sh
+    9  vi Vagrantfile
+   10  vi install.sh
+   11  tmux new-session -s distribuidos
+   12  vi install.sh
+   13  vagrant status
+   14  vagrant up
+   15  vagrant status
+   16  vagrant provision
+   17  cat install.sh
+   18  vi V
+   19  ls
+   20  vi Vagrantfile
+   21  curl 127.0.0.1:8000
+   22  vi Vagrantfile
+   23* curl 127.0.0.1:8000
+   24* ifconfig
+   25* curl 127.0.0.1:8000
+   26* cat install.sh
+   27* curl 127.0.0.1:8000
+   28* vagrant ssh 
+   29* ssh vagrant 
+   30* vagrant ssh
+   31* vi Vagrantfile
+   32* ls
+   33* vi Vagrantfile
+   34* rm .Vagrantfile.swp
+   35* vi Vagrantfile
+   36* cat install.sh
+   37* curl 127.0.0.1:8000
+   38* curl 127.0.0.1:8080
+   39* service httpd status
+   40* service http status
+   41* cd ..
+   42* mkdir 02_ubuntu
+   43* cd 02_ubuntu
+   44* vagrant init bento/ubuntu-18.04
+   45* vagrant up
+   46  cd ..
+   47  cd 01_centos7
+   48  vi Vagrantfile
+   49  wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/Vagrantfile
+   50  ls
+   51  rm Vagrantfile
+   52  mv Vagrantfile.1 Vagrantfile
+   53  vi Vagrantfile
+   54  vagrant box list
+   55  vi Vagrantfile
+   56  wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/Vagrantfile
+   57  ls
+   58  mv Vagrantfile.1 hosts
+   59  vi hosts
+   60  vi Vagrantfile
+   61  rm hosts
+   62  wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/hosts
+   63  vi hosts
+   64  wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/ansible.cfg
+   65  vi ansible.cfg
+   66  vi hosts
+   67  vi Vagrantfile
+   68  mkdir playbooks
+   69  cd playbooks
+   70  ls
+   71  wget https://raw.githubusercontent.com/ICESI/ds-ansible/master/centos7/00_nginx_python/playbooks/python.yml
+   72  vi python.yml
+   73  gaa
+   74  alias
+   75  cd ..
+   76  tree
+   77  cd histories
