@@ -1,0 +1,56 @@
+    1  tmux new-session -s distribuidos
+    2  ls -l
+    3  cd Desktop
+    4  ls -l
+    5  ..
+    6  cd Documentos
+    7  ls -l
+    8  cd Distribuidos
+    9  ls -l
+   10  cd sd2019b-workshop0
+   11  ls -l
+   12  cd 01_centos7
+   13  ls -l
+   14  cd playbooks
+   15  ls -l
+   16  sudo apt install python3-pip -y
+   17* pip3 install --user ansible
+   18* pip3 install --user paramiko
+   19  pip3 install --user ansible
+   20  pipip3 install --user paramiko
+   21  pip3 insnstall --user paramiko
+   22  pip3 install --user ansible
+   23  vagrant up ServerA
+   24* ls -l
+   25* cd Documentos/Distribuidos/sd2019b-workshop0/01_centos7
+   26* vi Vagrantfile
+   27* ssh distribuidos@192.168.130.56
+   28* exit
+   29  ssh-keygen -t rsa
+   30  vagrant status
+   31  vagrant up ServerA
+   32* cd Documentos/Distribuidos/sd2019b-workshop0/01_centos7
+   33  vagrant status
+   34  ls -l
+   35  cat python.yml
+   36  cat python.yml > copiapythonyml.txt
+   37  vi python.yml
+   38  ansible-playbook -i hosts playbooks/python.yml
+   39  sudo apt install ansible-playbook
+   40  ansible-playbook -i hosts playbooks/python.yml
+   41  sudo apt install ansible
+   42  ansible-playbook -i hosts playbooks/python.yml
+   43  ansible-playbook -i hosts python.yml
+   44  vagrant status
+   45  ansible-playbook -i hosts python.yml
+   46  cd ..
+   47  ansible-playbook -i hosts playbooks/python.yml
+   48  cd ..
+   49  gaa
+   50  gcmsg "Instalación python 3.6"
+   51  git push
+   52  git push --set-upstream origin dev
+   53  git checkout
+   54  ls -l
+   55  cd listHistory
+   56  ls -l
