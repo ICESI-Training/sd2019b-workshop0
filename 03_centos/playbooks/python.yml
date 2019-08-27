@@ -1,16 +1,24 @@
 ---
 # Dependencies install
+# Reference: https://www.rosehosting.com/blog/how-to-install-python-3-6-4-on-centos-7/
 - hosts: appServer
   become: yes
   become_user: root
   become_method: sudo
   tasks:
-    - name: Install python3
+    - name: WMC install python3 for CentOS7
+      yum:
+        name: https://centos7.iuscommunity.org/ius-release.rpm
+        state: present
+    - name: Update repo
+      yum:
+        name: '*'
+        state: latest
+    - name: Install python 3 from repo
       yum:
         name:
-          - python-setuptools
-          - python36
-          - python36-pip
-          - python36-devel
+         - python36u
+         - python36u-libs
+         - python36u-devel
+         - python36u-pip
         state: present
-
