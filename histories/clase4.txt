@@ -1,0 +1,70 @@
+    1  exit
+    2  cd Documents/
+    3  cd Documentos
+    4  ls
+    5  cd Distribuidos/sd2019b-workshop0
+    6  cd 01_centos7
+    7  ls
+    8  cat hosts
+    9  cat ansible.cfg
+   10  cd playbooks
+   11  ls
+   12  cat python.yml
+   13  tmux new-session -s distribuidos
+   14  cd ..
+   15  cat hosts
+   16  cat ansible.cfg
+   17  cd playbooks
+   18  sudo apt install python3-pip -y
+   19  exit
+   20  pip3 install --user ansible
+   21  pip3 install --user paramiko
+   22* xit
+   23* ex
+   24* exit
+   25  cd ..
+   26  cat ansible.cfg
+   27  cay hosts
+   28  cat hosts
+   29  vagrant up ServerA
+   30  vi Vagrantfile
+   31  vagrant up ServerA
+   32  ls
+   33  vi Vagrantfile
+   34  vagrant up ServerA
+   35* cd Documentos/Distribuidos/sd2019b-workshop0/01_centos7/
+   36* touch morite.txt
+   37* echo "morite">morite.txt
+   38* exit
+   39* cd ..
+   40* ls
+   41* vi morite.txt
+   42* rm morite.txt
+   43* npam -sP 192.168.130.0/24
+   44  ssh-keygen -t rsa
+   45  vagrant box lists
+   46  vagrant box list
+   47  vagrant ssh
+   48  vagrant ssh ServerA
+   49  vagrant up
+   50  vagrant up ServerA
+   51  vagrant status
+   52  cd playbooks
+   53  cd ..
+   54  vi playbooks/python.yml
+   55  ansible-playbook -i hosts playbooks/python.yml
+   56  cd playbooks
+   57  ansible-playbook -i hosts playbooks/python.yml
+   58  cd ..
+   59  vi playbooks/python.yml
+   60  rm playbooks/.python.yml.swp
+   61  vi playbooks/python.yml
+   62  ansible-playbook -i hosts playbooks/python.yml
+   63  sudo apt install ansible-playbook
+   64  sudo apt install ansible
+   65* vi playbooks/python.yml
+   66  ansible-playbook -i hosts playbooks/python.yml
+   67  vi playbooks/python.yml
+   68  cd ..
+   69  cd histories
+   70  ls
