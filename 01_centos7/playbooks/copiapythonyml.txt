@@ -8,6 +8,8 @@
     - name: Install python3
       yum:
         name:
-          - epel-release
+          - python-setuptools
           - python36
+          - python36-pip
+          - python36-devel
         state: present
