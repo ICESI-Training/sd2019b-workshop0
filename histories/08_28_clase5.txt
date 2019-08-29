@@ -1,0 +1,107 @@
+    1  exit
+    2  cd Documentos
+    3  ls
+    4  cd Distribuidos/sd2019b-workshop0
+    5  cd 01_centos7
+    6  ls
+    7  vi ansible.cfg
+    8  vagrant box list
+    9  vagrant status
+   10  vi playbooks/python.yml
+   11  tmux new-session -s distribuidos
+   12  vi playbooks/python.yml
+   13  cd ..
+   14  cd .
+   15  cd ..
+   16  ls
+   17  ls -l
+   18  cd sd2019b-workshop0
+   19  cd 01_centos7
+   20  cd playbooks
+   21  wget https://raw.githubusercontent.com/ICESI-Training/sd2019b-workshop0/master/03_centos/playbooks/python.yml
+   22  ls
+   23  vi python.yml
+   24  rm python.yml
+   25  mv python.yml.1 python.yml
+   26  vagrant box add --help
+   27  cd ..
+   28  ls
+   29  vagrant box add centos1706_v0.2.0 ~/Documentos/Distribuidos/centos1706_v0.2.0
+   30  cd sd2019b-workshop0
+   31  cd ..
+   32  cd..
+   33  cd ..
+   34  mkdir 03_centos7_chef
+   35  cd 03_centos7_chef
+   36  vagrant init centos1706_v0.2.0 
+   37  vi Vagrantfile
+   38  vagrant up
+   39  vagrant ssh 
+   40  vagrant ssh
+   41  exit
+   42  ls
+   43  mkdir --help
+   44  mkdir -p cookboks/apache/{files, recipes, templates}
+   45  mkdir -p cookbooks/apache/{files,recipes,templates}
+   46  tree
+   47  cd cookbooks/apache/recipes
+   48  vi default.rb
+   49  vi install_httpd-rb
+   50  cd ..
+   51  ls
+   52  vi cookbooks
+   53  cd cookbooks
+   54  tree
+   55  cd files
+   56  mkdir files
+   57  mkdir default
+   58  wget www.icesi.edu.co
+   59  vi index.html
+   60  cd ..
+   61  tree
+   62  cd cookbooks
+   63  ls
+   64  mv index.html ./apache/files/index.html
+   65  tree
+   66  cd apache/files
+   67  cd ..
+   68  cd apache
+   69  cd ..
+   70  rm default
+   71  rm -r default
+   72  cd apache/files
+   73  mkdir default
+   74  ls
+   75  mv index.html ./default/
+   76  ls
+   77  tree
+   78  cd ..
+   79  vi Vagrantfile
+   80  vagrant destroy -f
+   81  vi Vagrantfile
+   82* vagrant up 
+   83  cd ..
+   84* vi Vagrantfile
+   85* tree
+   86  cd 03_centos7_chef
+   87  vi Vagrantfile
+   88* cd cookbooks/apache/recipes
+   89* vi install_httpd-rb
+   90* vi default.rb
+   91* cd ..
+   92* vi Vagrantfile
+   93* vi cookbooks/apache/recipes/install_httpd-rb
+   94* vagrant up
+   95* vagrant status
+   96* vagrant destroy -f
+   97* vagrant up
+   98  tree
+   99  cd cookbooks/apache/recipes
+  100  mv install_httpd-rb install_httpd.rb
+  101  cd ..
+  102  vagrant destroy -f
+  103  vagrant up
+  104* exit
+  105  cd ..
+  106  cd histories
+  107  ls
