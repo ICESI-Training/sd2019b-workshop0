@@ -5,13 +5,19 @@
   become_user: root
   become_method: sudo
   tasks:
-    - name: Install python3
+    - name: Install epel release
       yum:
         name:
-          - python-setuptools
-          - python36
-          - python36-pip
-          - python36-devel
+          - epel-release
         state: present
-
-    
+    - name: update
+      yum:
+        name:
+          - "*"
+        state: latest
+    - name: Install python36
+      yum:
+        name:
+          - python36
+        state: present
+   
