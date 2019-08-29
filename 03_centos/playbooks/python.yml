@@ -6,19 +6,12 @@
   become_user: root
   become_method: sudo
   tasks:
-    - name: WMC install python3 for CentOS7
+    - name: install epel
       yum:
-        name: https://centos7.iuscommunity.org/ius-release.rpm
-        state: present
-    - name: Update repo
-      yum:
-        name: '*'
+        name: epel-release
         state: latest
     - name: Install python 3 from repo
       yum:
-        name:
-         - python36u
-         - python36u-libs
-         - python36u-devel
-         - python36u-pip
+        name: python36
         state: present
+    
