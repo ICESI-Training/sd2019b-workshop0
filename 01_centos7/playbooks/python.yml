@@ -9,12 +9,7 @@
       yum:
         name:
           - epel-release
-        state: present
-    - name: update
-      yum:
-        name:
-          - "*"
-        state: latest
+        state: latest 
     - name: Install python36
       yum:
         name:
