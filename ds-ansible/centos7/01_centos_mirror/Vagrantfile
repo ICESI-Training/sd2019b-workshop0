@@ -2,11 +2,11 @@
 # vi: set ft=ruby :
 servers = {
   "mirror" => { :ip_private => "192.168.56.2",
-                :ip_bridge => "192.168.131.2",
+                :ip_bridge => "192.168.131.101",
                 :cpus => 1,
                 :mem => 1024 },
   "client" => { :ip_private => "192.168.56.3", 
-                :ip_bridge => "192.168.131.3", 
+                :ip_bridge => "192.168.131.102", 
                 :cpus => 1, 
                 :mem => 1024 }
 }
