@@ -1,0 +1,15 @@
+---
+# Dependencies install
+- hosts: appServer
+  become: yes
+  become_user: root
+  become_method: sudo
+  tasks:
+       - name: Install python3
+         yum:
+          name:
+             - epel-release
+             - python36
+          state: present
+
+
